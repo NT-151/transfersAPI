@@ -45,5 +45,4 @@ class PlayersOut(Players):
     player_id: int
 
     class Config:
-        # orm_mode = True
         from_attribute = True
